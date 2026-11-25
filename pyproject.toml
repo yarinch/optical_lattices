@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optical_lattices"
+version = "1.0.0"
+authors = [
+  { name="Yarin Cohen" },
+]
+description = "A package for calculating quantities in programmable optical lattices."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "wannier90io"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+optical_lattices = ["seed.win.template"]

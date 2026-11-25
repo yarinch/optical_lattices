@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this package in your work, please cite it as below."
+type: software
+title: "optical_lattices"
+authors:
+  - family-names: Cohen
+    given-names: Yarin
+version: 1.0.0
+date-released: 2026-11-25
+repository-code: "https://github.com/yarinch/optical_lattices"
+url: "https://github.com/yarinch/optical_lattices"
+license: MIT
+keywords:
+  - optical lattices
+  - ultracold atoms
+  - Wannier functions
+  - tight-binding
+  - quantum simulation
+  - Dirac points
